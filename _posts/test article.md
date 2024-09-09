@@ -1,6 +1,5 @@
 ---
-title: Test Article
-description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
+title: test article
 author: codevalve
 date: 2024-09-09 16:21:00 -500
 categories: [article]
