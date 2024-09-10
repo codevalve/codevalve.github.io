@@ -5,7 +5,7 @@ title: Introduction to Using Prisma ORM with NodeJS and ExpressJS
 author: codevalve
 date: 2024-09-09 09:00:00 -0500
 categories: orm prisma
-tags: how-to
+tags: how-to article
 mermaid: true
 ---
 

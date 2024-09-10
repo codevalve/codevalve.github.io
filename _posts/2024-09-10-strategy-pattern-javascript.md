@@ -3,7 +3,7 @@ layout: post
 title: Implementing the Strategy Pattern in JavaScript for Arithmetic Operations  
 author: codevalve  
 date: 2024-09-09 08:00:00 -0500  
-categories: oop, design-patterns  
+categories: article oop design-patterns  
 tags: how-to
 mermaid: true 
 ---

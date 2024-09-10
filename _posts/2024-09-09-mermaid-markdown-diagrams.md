@@ -4,7 +4,7 @@ title: Introduction to Using Mermaid Markdown for Programming Articles
 author: codevalve
 date: 2023-10-07 12:30:00 -0400
 categories: development, documentation, programming
-tags: mermaid, markdown
+tags: mermaid markdown
 mermaid: true
 ---
 
