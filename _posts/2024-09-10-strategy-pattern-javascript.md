@@ -29,12 +29,12 @@ graph TD
     A -->|is extended by| D
     A -->|is extended by| E
     
-    style A fill:#8c7853,stroke:#1E90FF
-    style B fill:#2a2b2b,stroke:#1E90FF
-    style C fill:#2a2b2b,stroke:#1E90FF
-    style D fill:#2a2b2b,stroke:#1E90FF
-    style E fill:#2a2b2b,stroke:#1E90FF
-    style G fill:#6495ED,stroke:#006400
+    style A fill:#cacbcc,stroke:#333, color:#000000
+    style B fill:#FFC300,stroke:#333, color:#000000
+    style C fill:#FFC300,stroke:#333, color:#000000
+    style D fill:#FFC300,stroke:#333, color:#000000
+    style E fill:#FFC300,stroke:#333, color:#000000
+    style G fill:#28A745,stroke:#006400, color:#000000
 
 ```
 
