@@ -1,5 +1,11 @@
-
-# Using Redis as a Simple Database for Node.js Express.js Web Apps
+---
+layout: post
+title: "Using Redis as a Simple Database for Node.js Express.js Web Apps"
+author: codevalve
+date: 2024-09-10 08:00:00 -0500
+categories: article
+tags: redis nodejs expressjs database simple
+---
 
 If you're building a web application using Node.js and Express.js, then you'll need a database to store and retrieve your data. While there are many popular database options available, Redis (Remote Dictionary Server) offers a simple and lightweight solution for storing and manipulating your data.
 
