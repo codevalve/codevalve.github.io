@@ -49,7 +49,7 @@ The `npx prisma init` command creates a `prisma` directory with a `schema.prisma
 
 1. **Update your `schema.prisma` file to configure your database:**
 
-```prisma
+```javascript
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
@@ -68,7 +68,7 @@ DATABASE_URL="postgresql://username:password@localhost:5432/mydatabase"
 
 3. **Define your data model in `schema.prisma`:**
 
-```prisma
+```javascript
 model User {
   id        Int      @id @default(autoincrement())
   email     String   @unique
