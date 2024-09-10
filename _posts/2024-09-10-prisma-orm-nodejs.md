@@ -3,7 +3,7 @@
 layout: post
 title: Introduction to Using Prisma ORM with NodeJS and ExpressJS
 author: codevalve
-date: 2023-10-05 10:00:00 -0500
+date: 2024-09-09 09:00:00 -0500
 categories: orm, prisma
 tags: how-to
 ---
