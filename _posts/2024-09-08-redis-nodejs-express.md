@@ -18,13 +18,13 @@ In this tutorial, we will explore how to use Redis as a simple database for your
 graph TD
     Start[User Submits Form] -->|POST /save| A[Express Route Handler]
     A -->|Extract form data| B[username & email]
-    B -->|client.set(username, email)| C[Redis Database]
+    B -->|client.set| C[Redis Database]
     C -->|Data stored| D[Success Redirect to Homepage]
     A -->|Error occurs| E[Handle Error and Send Error Message]
 
     StartView[User Requests Data] -->|GET /view/:username| F[Express Route Handler]
     F -->|Extract username param| G[username]
-    G -->|client.get(username)| C
+    G -->|client.get| C
     C -->|Data Retrieved| H[Render View with username & email]
     F -->|Error occurs| I[Handle Error and Send Error Message]
 
