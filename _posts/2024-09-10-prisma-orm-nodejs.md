@@ -4,14 +4,39 @@ layout: post
 title: Introduction to Using Prisma ORM with NodeJS and ExpressJS
 author: codevalve
 date: 2024-09-09 09:00:00 -0500
-categories: orm, prisma
+categories: orm prisma
 tags: how-to
+mermaid: true
 ---
 
 ## Introduction
 
 Prisma is a next-generation ORM (Object-Relational Mapping) for NodeJS and TypeScript. It provides a powerful and flexible way to interact with your database and helps in building robust and scalable applications. In this article, we'll walk through the steps to set up and use Prisma ORM with NodeJS and ExpressJS for a website.
 
+## Here is what we are planning to implement
+
+```mermaid
+graph TD
+    Start[User Submits Form] -->|POST /save| A[Express Route Handler]
+    A -->|Extract form data| B[username & email]
+    B -->|client.set | C[Postgres Database]
+    C -->|Data stored| D[Success Redirect to Homepage]
+    A -->|Error occurs| E[Handle Error and Send Error Message]
+    
+    StartView[User Requests Data] -->|GET /view/:username| F[Express Route Handler]
+    F -->|Extract username param| G[username]
+    G -->|client.get| C
+    C -->|Data Retrieved| H[Render View with username & email]
+    F -->|Error occurs| I[Handle Error and Send Error Message]
+    
+    style A fill:#FFC300,stroke:#333,stroke-width:2px,color:#000000
+    style F fill:#FFC300,stroke:#333,stroke-width:2px,color:#000000
+    style C fill:#66B2FF,stroke:#333,stroke-width:2px,color:#000000
+    style D fill:#28A745,stroke:#333,stroke-width:2px,color:#000000
+    style H fill:#28A745,stroke:#333,stroke-width:2px,color:#000000
+    style E fill:#FF5733,stroke:#333,stroke-width:2px,color:#000000
+    style I fill:#FF5733,stroke:#333,stroke-width:2px,color:#000000
+```
 ## Prerequisites
 
 Before we begin, ensure you have the following installed:

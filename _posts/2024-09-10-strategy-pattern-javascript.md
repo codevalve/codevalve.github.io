@@ -16,24 +16,26 @@ In Object-Oriented Programming (OOP), the Strategy Pattern is a behavioral desig
 
 ```mermaid
 graph TD
-    A[Context] -->|uses| B[StrategyInterface]
-    A -->|uses| C[StrategyA]
-    A -->|uses| D[StrategyB]
-    A -->|uses| E[StrategyC]
-    A -->|uses| F[StrategyD]
-    B -->|defines|::G[execute]
-    C -->|implements| G
-    D -->|implements| G
-    E -->|implements| G
-    F -->|implements| G
+    A[Strategy]
+    A -->|defines| G[execute]
     
-    style A fill:#6495ED,stroke:#1E90FF
-    style B fill:#1E90FF,stroke:#1E90FF
+    B[Addition] -->|implements| G
+    C[Subtraction] -->|implements| G
+    D[Multiplication] -->|implements| G
+    E[Division] -->|implements| G
+    
+    A -->|is extended by| B
+    A -->|is extended by| C
+    A -->|is extended by| D
+    A -->|is extended by| E
+    
+    style A fill:#8c7853,stroke:#1E90FF
+    style B fill:#2a2b2b,stroke:#1E90FF
     style C fill:#2a2b2b,stroke:#1E90FF
     style D fill:#2a2b2b,stroke:#1E90FF
     style E fill:#2a2b2b,stroke:#1E90FF
-    style F fill:#2a2b2b,stroke:#1E90FF
     style G fill:#6495ED,stroke:#006400
+
 ```
 
 ## Prerequisites

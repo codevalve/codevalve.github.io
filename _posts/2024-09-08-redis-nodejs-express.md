@@ -5,11 +5,45 @@ author: codevalve
 date: 2024-09-10 08:00:00 -0500
 categories: article
 tags: redis nodejs expressjs database simple
+mermaid: true
 ---
 
 If you're building a web application using Node.js and Express.js, then you'll need a database to store and retrieve your data. While there are many popular database options available, Redis (Remote Dictionary Server) offers a simple and lightweight solution for storing and manipulating your data.
 
 In this tutorial, we will explore how to use Redis as a simple database for your Node.js Express.js web application.
+
+## Here is what we are implementing
+
+```mermaid
+graph TD
+    Start[User Submits Form] -->|POST /save| A[Express Route Handler]
+    A -->|Extract form data| B[username & email]
+    B -->|client.set(username, email)| C[Redis Database]
+    C -->|Data stored| D[Success Redirect to Homepage]
+    A -->|Error occurs| E[Handle Error and Send Error Message]
+
+    StartView[User Requests Data] -->|GET /view/:username| F[Express Route Handler]
+    F -->|Extract username param| G[username]
+    G -->|client.get(username)| C
+    C -->|Data Retrieved| H[Render View with username & email]
+    F -->|Error occurs| I[Handle Error and Send Error Message]
+
+    Install[Install Dependencies] -->|npm install| Setup[Setup Node.js Express App]
+    Setup -->|Install Redis Package| InstallRedis[Install redis npm package]
+    InstallRedis -->|Connect to Redis| A
+
+    style A fill:#FFC300,stroke:#333,stroke-width:2px,color:#000000
+    style F fill:#FFC300,stroke:#333,stroke-width:2px,color:#000000
+    style C fill:#66B2FF,stroke:#333,stroke-width:2px,color:#000000
+    style D fill:#28A745,stroke:#333,stroke-width:2px,color:#000000
+    style H fill:#28A745,stroke:#333,stroke-width:2px,color:#000000
+    style E fill:#FF5733,stroke:#333,stroke-width:2px,color:#000000
+    style I fill:#FF5733,stroke:#333,stroke-width:2px,color:#000000
+    style Install fill:#DAA520,stroke:#333,stroke-width:2px,color:#000000
+    style Setup fill:#DAA520,stroke:#333,stroke-width:2px,color:#000000
+    style InstallRedis fill:#DAA520,stroke:#333,stroke-width:2px,color:#000000
+
+```
 
 ## Prerequisites
 
