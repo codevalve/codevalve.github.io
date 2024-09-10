@@ -3,7 +3,7 @@ name: Generate AI Article
 on:
   push:
     paths:
-      - articles/*.md  # Specify the folder where article files are stored
+      - _posts/*.md  # Specify the folder where article files are stored
     branches:
       - main  # Define which branch to trigger from
 
