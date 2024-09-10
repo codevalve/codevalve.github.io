@@ -16,7 +16,7 @@ Are you tired of writing the code to connect to a database over and over again? 
 
 Here is the code for the class that abstracts away the repetitive database connection logic:
 
-```vbscript
+```script
 Class DataBaseFunctions
 
     ' Declare variables to have public scope.
