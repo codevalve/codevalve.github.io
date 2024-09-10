@@ -1,0 +1,47 @@
+name: Generate AI Article
+
+on:
+  push:
+    paths:
+      - _posts/*.md  # Specify the folder where article files are stored
+    branches:
+      - main  # Define which branch to trigger from
+
+jobs:
+  generate_article:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js (if your script uses Node.js)
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Check if file has AI trigger
+      id: check_file
+      run: |
+        if grep -q "ai:true" "$GITHUB_WORKSPACE/$FILE_PATH"; then
+          echo "AI trigger found, proceeding to generate article."
+          echo "::set-output name=generate::true"
+        else
+          echo "No AI trigger found, skipping..."
+          echo "::set-output name=generate::false"
+        fi
+      env:
+        FILE_PATH: $(find articles -name "*.md" | tail -1)  # Customize path search as needed
+
+    - name: Generate Article via ChatGPT
+      if: steps.check_file.outputs.generate == 'true'
+      run: |
+        node scripts/generateArticle.js "$FILE_PATH"
+
+    - name: Commit updated article
+      if: steps.check_file.outputs.generate == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add "$FILE_PATH"
+        git commit -m "AI-generated article update for $FILE_PATH"
+        git push
