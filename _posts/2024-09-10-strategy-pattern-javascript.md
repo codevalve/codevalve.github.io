@@ -4,12 +4,37 @@ title: Implementing the Strategy Pattern in JavaScript for Arithmetic Operations
 author: codevalve  
 date: 2024-09-09 08:00:00 -0500  
 categories: oop, design-patterns  
-tags: how-to  
+tags: how-to
+mermaid: true 
 ---
 
 ## Introduction
 
 In Object-Oriented Programming (OOP), the Strategy Pattern is a behavioral design pattern that enables selecting an algorithm at runtime. In this article, we'll implement the Strategy Pattern in a JavaScript/NodeJS application to perform basic arithmetic operations: addition, subtraction, multiplication, and division. 
+
+## An example of what we are implementing
+
+```mermaid
+graph TD
+    A[Context] -->|uses| B[StrategyInterface]
+    A -->|uses| C[StrategyA]
+    A -->|uses| D[StrategyB]
+    A -->|uses| E[StrategyC]
+    A -->|uses| F[StrategyD]
+    B -->|defines|::G[execute]
+    C -->|implements| G
+    D -->|implements| G
+    E -->|implements| G
+    F -->|implements| G
+    
+    style A fill:#6495ED,stroke:#1E90FF
+    style B fill:#1E90FF,stroke:#1E90FF
+    style C fill:#2a2b2b,stroke:#1E90FF
+    style D fill:#2a2b2b,stroke:#1E90FF
+    style E fill:#2a2b2b,stroke:#1E90FF
+    style F fill:#2a2b2b,stroke:#1E90FF
+    style G fill:#6495ED,stroke:#006400
+```
 
 ## Prerequisites
 
