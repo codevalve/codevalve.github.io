@@ -51,6 +51,11 @@ graph TD
     C3(Self-Healing)
 ```
 
+## Downsides
+
+Still evolving: As a relatively newer database, it might not be as mature or well-supported as PostgreSQL or MariaDB for some specific workloads.
+Resource consumption: Its fault-tolerant design comes at the cost of higher resource consumption.
+
 ### Conclusion
 
 While Microsoft SQL Server is a powerful and highly reliable database system, it lacks some of the modern features necessary for cloud-native applications. CockroachDB offers several advantages, including horizontal scalability, PostgreSQL compatibility, and robust fault tolerance, making it a compelling choice for modern distributed applications.
