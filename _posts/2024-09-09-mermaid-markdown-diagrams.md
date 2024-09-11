@@ -8,6 +8,8 @@ tags: mermaid markdown
 mermaid: true
 ---
 
+{% assign author = site.data.people[page.author] %}
+
 When writing technical documentation or blog posts related to programming, clear and effective diagrams can make a world of difference. Mermaid Markdown provides a simple and impactful way to create diagrams that can be embedded directly within Markdown files. This explainer post will introduce you to using Mermaid Markdown for your programming articles.
 
 ## What is Mermaid?

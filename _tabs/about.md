@@ -21,7 +21,3 @@ What are the concerns for your business website?
 
 We would be [happy to discuss](https://codevalve.com/) your new project or even your current website.
 If you would like some advice and guidance on what to do next, feel free to let us know.
-
-## The person
-
-I’m a husband, father, bonus dad, programmer, musician, photographer, motorcyclist, traveler, artist, builder, linguist, haole Hawaiian, and nerd.
