@@ -130,7 +130,7 @@ stateDiagram
 
 To embed Mermaid diagrams in Markdown files, you would typically use fenced code blocks with the mermaid descriptor. Here's an example:
 
-<img src='/assets/img/mermaid-example-code.png' width='300' height='130' />
+<img src='/assets/img/mermaid-example-code.png' alt="mermaid example code" width='300' height='130' />
 
 When rendered by a Mermaid-aware Markdown processor, this will produce a simple flowchart.
 
