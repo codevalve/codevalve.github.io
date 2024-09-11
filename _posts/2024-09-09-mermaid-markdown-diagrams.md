@@ -32,6 +32,13 @@ Here are a few examples of some common diagram types you can create with Mermaid
 
 A flowchart represents the flow of steps in a process.
 
+```
+graph TD
+    A[Start] --> B{Is it sunny?}
+    B -- Yes --> C[Go for a walk]
+    B -- No --> D[Stay inside]
+```
+
 ```mermaid
 graph TD
     A[Start] --> B{Is it sunny?}
@@ -42,6 +49,18 @@ graph TD
 ### Sequence Diagram
 
 A sequence diagram shows interactions between entities over time.
+
+```
+sequenceDiagram
+    participant User
+    participant Application
+    participant Database
+
+    User->>Application: Request data
+    Application->>Database: Retrieve data
+    Database-->>Application: Return data
+    Application-->>User: Display data
+```
 
 ```mermaid
 sequenceDiagram
@@ -58,6 +77,20 @@ sequenceDiagram
 ### Class Diagram
 
 A class diagram represents the structure of a system by showing its classes, attributes, and relationships.
+
+```
+classDiagram
+    class Animal {
+        +String name
+        +int age
+        +void eat()
+    }
+    class Dog {
+        +String breed
+        +void bark()
+    }
+    Animal <|-- Dog
+```
 
 ```mermaid
 classDiagram
@@ -77,6 +110,13 @@ classDiagram
 
 A state diagram illustrates the states an entity can have and transitions between states.
 
+```
+stateDiagram
+    [*] --> State1
+    State1 --> State2
+    State2 --> [*]
+```
+
 ```mermaid
 stateDiagram
     [*] --> State1
@@ -88,14 +128,16 @@ stateDiagram
 
 To embed Mermaid diagrams in Markdown files, you would typically use fenced code blocks with the mermaid descriptor. Here's an example:
 
-\`\`\`mermaid
+<img src='/assets/img/mermaid-example-code.png' width='300' height='130' />
+
+When rendered by a Mermaid-aware Markdown processor, this will produce a simple flowchart.
+
+```mermaid
 graph TD
     A[Start] --> B{Is it sunny?}
     B -- Yes --> C[Go for a walk]
     B -- No --> D[Stay inside]
-\`\`\`
-
-When rendered by a Mermaid-aware Markdown processor, this will produce a simple flowchart.
+```
 
 ## Conclusion
 
