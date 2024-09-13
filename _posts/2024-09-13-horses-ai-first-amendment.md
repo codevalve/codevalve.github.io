@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Horses, AI, and the First Amendment"
