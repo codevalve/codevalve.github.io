@@ -6,6 +6,7 @@ date: 2024-09-09 08:00:00 -0500
 categories: article oop design-patterns  
 tags: how-to
 mermaid: true 
+github: https://github.com/codevalve/js-strategy-pattern
 ---
 
 ## Introduction
@@ -202,3 +203,5 @@ Division:  1.6666666666666667
 In this article, we've implemented the Strategy Pattern using JavaScript and NodeJS to create a simple arithmetic operations application. This design pattern allows easy addition of new strategies without changing existing code, promoting scalability and maintainability. 
 
 Feel free to expand on this pattern by adding more operations or enhancing error handling. Happy coding!
+
+[GitHub - Sample Code for Javascript Strategy Pattern](https://github.com/codevalve/js-strategy-pattern)
