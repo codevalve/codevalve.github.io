@@ -4,7 +4,7 @@ title: CockroachDB - Why It's a Good Choice Over Microsoft SQL Server
 author: codevalve
 date: 2024-09-11 10:00:00 -0500
 categories: opensource, database, CockroachDB
-tags: database, CockroachDB, scalability, PostgreSQL, MSSQL
+tags: database CockroachDB scalability PostgreSQL MSSQL
 mermaid: true
 exp: intermediate
 ---

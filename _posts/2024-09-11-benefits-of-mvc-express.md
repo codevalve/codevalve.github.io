@@ -4,13 +4,18 @@ title: The Benefits of the MVC Pattern in ExpressJS
 author: codevalve
 date: 2024-09-11 10:00:00 -0500
 categories: ExpressJS NodeJS JavaScript MVC
-tags: mvc expressjs nodejs javascript
+tags: mvc expressjs nodejs javascript podcast
 mermaid: true
 ---
 
-# The Benefits of the MVC Pattern in ExpressJS
+# Intro
 
 Model-View-Controller (MVC) is a popular design pattern that helps in structuring applications in a way that separates concerns, making the codebase more manageable and scalable. When it comes to web development using ExpressJS, adopting the MVC pattern can provide numerous benefits. In this article, we'll explore the advantages of using the MVC pattern in ExpressJS applications.
+
+### Podcast
+
+<audio ref='postcast' src="https://codevalve.com/wp-content/uploads/2024/09/CodeValve-Podcast-The-Benefits-of-the-MVC-Pattern.mp3" controls></audio>
+
 
 ## What is MVC?
 
