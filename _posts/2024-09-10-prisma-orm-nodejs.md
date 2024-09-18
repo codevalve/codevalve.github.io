@@ -13,6 +13,10 @@ mermaid: true
 
 Prisma is a next-generation ORM (Object-Relational Mapping) for NodeJS and TypeScript. It provides a powerful and flexible way to interact with your database and helps in building robust and scalable applications. In this article, we'll walk through the steps to set up and use Prisma ORM with NodeJS and ExpressJS for a website.
 
+### Podcast
+
+<audio ref='postcast' src="https://codevalve.com/wp-content/uploads/2024/09/Introduction-to-Using-Prisma-ORM-with-NodeJS-and-ExpressJS.mp3" controls></audio>
+
 ## Here is what we are planning to implement
 
 ```mermaid
