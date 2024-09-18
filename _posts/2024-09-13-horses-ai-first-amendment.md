@@ -4,7 +4,7 @@ title: "Horses, AI, and the First Amendment"
 author: codevalve
 date: 2024-09-13 15:00:00 -0500
 categories: article
-tags: ai horse first-amendment 1A freedom right-to-compute
+tags: ai horse first-amendment 1A freedom right-to-compute podcast
 mermaid: true
 ---
 
@@ -12,7 +12,12 @@ mermaid: true
 
 As artificial intelligence increasingly generates content—whether it’s writing articles, creating art, music, or even generating political speeches—the question arises: should we create specific laws to regulate AI, or can existing legal frameworks handle these challenges? Enter the "Law of the Horse," a famous argument suggesting that specialized laws for specific technologies are unnecessary. In a world grappling with deepfakes and AI-driven misinformation, the discussion of whether we need AI-specific rules has never been more relevant. This article explores how the principles behind the "Law of the Horse" could apply to AI and free speech, offering a fresh lens through which to examine the evolving legal landscape.
 
+### Podcast
+
+<audio ref='postcast' src="https://codevalve.com/wp-content/uploads/2024/09/CodeValve-Podcast-Horses-AI-First-Amendment.mp3" controls></audio>
+
 ## The Law of the Horse
+
 
 The "Law of the Horse" refers to a metaphor used by legal scholar Frank H. Easterbrook to criticize the idea of developing specialized laws for specific technologies or industries. In a 1996 speech, he argued against creating a separate body of law for cyberspace, stating that just as there is no "Law of the Horse" (a special body of law just for horses), there shouldn't be special laws solely for the internet. His key point was that legal principles—like contract law, property law, or tort law—should apply broadly across all areas of life, including new technologies, instead of creating technology-specific laws.
 
@@ -50,3 +55,5 @@ In essence, the conversation around AI regulation and free speech is universal, 
 
 ## Conclusion
 The "Law of the Horse" is a critique against creating specialized laws for new technologies, suggesting that broad legal principles should instead evolve to cover those areas. In the context of free speech and AI, this means that rather than making AI-specific free speech laws, general First Amendment principles should be adapted to govern how AI-generated content is regulated and protected. The debate is whether this broad legal framework can effectively handle the unique issues AI introduces or whether new regulations are needed.
+
+
