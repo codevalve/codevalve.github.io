@@ -15,7 +15,7 @@ Prisma is a next-generation ORM (Object-Relational Mapping) for NodeJS and TypeS
 
 ### Podcast
 
-<audio ref='postcast' src="https://codevalve.com/wp-content/uploads/2024/09/Introduction-to-Using-Prisma-ORM-with-NodeJS-and-ExpressJS.mp3" controls></audio>
+<audio ref='podcast' src="https://codevalve.com/wp-content/uploads/2024/09/Introduction-to-Using-Prisma-ORM-with-NodeJS-and-ExpressJS.mp3" controls></audio>
 
 ## Here is what we are planning to implement
 

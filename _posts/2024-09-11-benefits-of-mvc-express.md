@@ -14,7 +14,7 @@ Model-View-Controller (MVC) is a popular design pattern that helps in structurin
 
 ### Podcast
 
-<audio ref='postcast' src="https://codevalve.com/wp-content/uploads/2024/09/CodeValve-Podcast-The-Benefits-of-the-MVC-Pattern.mp3" controls></audio>
+<audio ref='podcast' src="https://codevalve.com/wp-content/uploads/2024/09/CodeValve-Podcast-The-Benefits-of-the-MVC-Pattern.mp3" controls></audio>
 
 
 ## What is MVC?

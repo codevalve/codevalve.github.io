@@ -14,7 +14,7 @@ As artificial intelligence increasingly generates content—whether it’s writi
 
 ### Podcast
 
-<audio ref='postcast' src="https://codevalve.com/wp-content/uploads/2024/09/CodeValve-Podcast-Horses-AI-First-Amendment.mp3" controls></audio>
+<audio ref='podcast' src="https://codevalve.com/wp-content/uploads/2024/09/CodeValve-Podcast-Horses-AI-First-Amendment.mp3" controls></audio>
 
 ## The Law of the Horse
 

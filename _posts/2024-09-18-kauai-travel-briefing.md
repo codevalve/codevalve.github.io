@@ -15,7 +15,7 @@ When it comes to pronouncing the name of the beautiful city of Lihue in Hawaii, 
 
 ### Podcast
 
-<audio ref='postcast' src="" controls></audio>
+<audio ref='podcast' src="https://codevalve.com/wp-content/uploads/2024/09/CodeValve-Podcast-Kauai-Travel-Briefing.mp3" controls></audio>
 
 ## Things to Do
 
