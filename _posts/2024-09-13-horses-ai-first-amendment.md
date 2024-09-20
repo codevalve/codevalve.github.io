@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Horses, AI, and the First Amendment"
-author: CodeValve
+author: codevalve
 date: 2024-09-13 15:00:00 -0500
 categories: article
 tags: ai horse first-amendment 1A freedom right-to-compute podcast
