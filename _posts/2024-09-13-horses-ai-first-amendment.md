@@ -5,6 +5,9 @@ author: codevalve
 date: 2024-09-13 15:00:00 -0500
 categories: article
 tags: ai horse first-amendment 1A freedom right-to-compute podcast
+image:
+    path: https://codevalve.com/wp-content/uploads/2024/09/codevalve_Horse_sitting_on_a_copy_of_the_United_States_Consti_9bdbb13d-5e95-455f-952d-165fcb716982_3.png
+    alt: An image of horse imposed on top of the Constitution
 ---
 
 ## Intro

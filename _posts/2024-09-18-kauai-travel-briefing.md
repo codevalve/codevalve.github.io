@@ -3,8 +3,11 @@ layout: post
 title: Kauai Travel Briefing
 author: codevalve
 date: 2024-09-18 18:00:00 -0500
-categories: orm prisma
-tags: travel kauai hawaii briefing
+categories: travel
+tags: kauai hawaii briefing
+image:
+  path: https://codevalve.com/wp-content/uploads/2024/09/codevalve_Kauai_Hawaii_coastal_shot_from_above_beautiful_phot_3ebbd561-8091-4574-a5c3-f7299532ef97_3.png
+  alt: Coastal Kauai From Above
 ---
 
 ## Overview

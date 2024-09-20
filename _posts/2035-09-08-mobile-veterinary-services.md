@@ -5,7 +5,9 @@ author: codevalve
 date: 2024-09-10 08:00:00 -0500
 categories: article
 tags: mobile vet veterinary-services Tulsa
-mermaid: true
+image:
+  path: https://codevalve.com/wp-content/uploads/2024/09/Dr.-Kristie-Hartle.png)
+  alt: Mobile Vet of Tulsa
 ---
 
 # Intro

@@ -7,6 +7,9 @@ categories: opensource, database, CockroachDB
 tags: database CockroachDB scalability PostgreSQL MSSQL
 mermaid: true
 exp: intermediate
+image:
+    path: https://codevalve.com/wp-content/uploads/2024/09/e5a7dfa8-cockroachdb-2408444104.png
+    alt: CockroachLabs Logo
 ---
 
 ## CockroachDB - Why It's a Good Choice Over Microsoft SQL Server

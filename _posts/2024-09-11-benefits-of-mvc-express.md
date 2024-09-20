@@ -6,6 +6,9 @@ date: 2024-09-11 10:00:00 -0500
 categories: ExpressJS NodeJS JavaScript MVC
 tags: mvc expressjs nodejs javascript podcast
 mermaid: true
+image:
+    path: https://codevalve.com/wp-content/uploads/2024/09/codevalve_Model_View_Controller_-_UML_diagram_of_a_design_pat_2d7c84e7-9ecf-4b01-ad44-537a6fc93d98_2.png
+    alt: AI Rendering of a MVC pattern
 ---
 
 # Intro
