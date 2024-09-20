@@ -24,6 +24,9 @@ When it comes to pronouncing the name of the beautiful city of Lihue in Hawaii, 
 
 ### Nature & Adventure
 
+{% include embed/video.html src='https://codevalve.com/wp-content/uploads/2024/09/pueo-kauai-beach-flyover.mp4' %}
+
+
 * **Nāpali Coast:** Known for its cathedral-like cliffs, accessible by helicopter, boat, or the challenging Kalalau Trail.
 * **Waimea Canyon:** Dubbed the "Grand Canyon of the Pacific," offering breathtaking vistas and hiking trails.
 * **Wailua River:** Kayaking and paddling opportunities, with chances to explore hidden waterfalls and sacred sites.
