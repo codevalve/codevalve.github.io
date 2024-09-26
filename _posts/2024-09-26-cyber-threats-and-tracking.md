@@ -12,6 +12,87 @@ exp: intermediate
 mermaid: true
 ---
 
+# A BANDAID FIX HAS BEEN POSTED
+
+## How to Block Port 631 on Debian
+
+To block port 631 on a Debian system, you can use one of the following methods depending on your requirements. Port 631 is commonly associated with the Internet Printing Protocol (IPP), used by CUPS (Common Unix Printing System). Here's how to block it:
+
+## Method 1: Using UFW (Uncomplicated Firewall)
+
+1. **Install UFW (if not already installed):**
+
+   ```bash
+   sudo apt update  
+   sudo apt install ufw  
+   ```
+
+2. **Enable UFW (if not enabled):**
+
+   ```bash
+   sudo ufw enable  
+   ```
+
+3. **Block port 631:** To block both incoming and outgoing traffic on port 631:
+
+   ```bash
+   sudo ufw deny 631  
+   ```
+
+   If you only want to block incoming connections, you can use:
+
+   ```bash
+   sudo ufw deny in 631  
+   ```
+
+4. **Check the UFW status to confirm the block:**
+
+   ```bash
+   sudo ufw status  
+   ```
+
+## Method 2: Using iptables
+
+If you're using `iptables`, you can add rules to block traffic on port 631.
+
+1. **Block incoming traffic on port 631:**
+
+   ```bash
+   sudo iptables -A INPUT -p tcp --dport 631 -j DROP  
+   ```
+
+2. **Block outgoing traffic on port 631:**
+
+   ```bash
+   sudo iptables -A OUTPUT -p tcp --dport 631 -j DROP  
+   ```
+
+3. **Save the `iptables` rules:** Depending on your Debian version, you can save the rules to persist across reboots:
+
+   ```bash
+   sudo apt install iptables-persistent  
+   sudo netfilter-persistent save  
+   ```
+
+## Method 3: Disabling CUPS (Common Unix Printing System)
+
+If you want to stop CUPS from running altogether, you can disable the service.
+
+1. **Stop the CUPS service:**
+
+   ```bash
+   sudo systemctl stop cups  
+   ```
+
+2. **Disable the CUPS service so it doesn't start on boot:**
+
+   ```bash
+   sudo systemctl disable cups  
+   ```
+
+Any of these methods will block traffic on port 631. Use the one that best fits your needs.
+
+
 ## Intro
 
 As Linux continues to dominate the world of servers, cloud environments, and IoT devices, the landscape of cyber threats targeting Linux-based systems has evolved significantly. Understanding the nature of these threats, how they are tracked, and the mechanisms in place for handling vulnerabilities is crucial for maintaining robust security.
