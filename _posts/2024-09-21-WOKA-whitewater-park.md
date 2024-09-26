@@ -16,6 +16,11 @@ image:
 
 In the heart of the tranquil countryside of Eastern Oklahoma lies a hidden gem for adventure seekers and nature enthusiasts alike – the WOKA Whitewater Park. WOKA, which stands for Waters Of Oklahoma and Arkansas, presents a unique convergence of excitement, scenery, and community spirit. 
 
+### Podcast
+
+<audio ref='postcast' src="https://codevalve.com/wp-content/uploads/2024/09/Codevalve-Podcast-WOKA.mp3" controls></audio>
+
+
 ## Origins of WOKA
 
 Situated on the border of Oklahoma and Arkansas, WOKA was conceptualized to promote outdoor recreational activities while preserving the natural beauty and biodiversity of the region. Post-construction, it has rapidly become a favored spot for both locals and tourists looking for thrilling water sports and serene natural landscapes.
