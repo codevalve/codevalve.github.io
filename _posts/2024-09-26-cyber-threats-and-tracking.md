@@ -12,7 +12,9 @@ exp: intermediate
 mermaid: true
 ---
 
-# A BANDAID FIX HAS BEEN POSTED
+# A BANDAID FIX HAS BEEN POSTED FOR CRITICAL BUG
+
+[From The Register](https://www.theregister.com/2024/09/26/unauthenticated_rce_bug_linux/?td=readmore)
 
 ## How to Block Port 631 on Debian
 
