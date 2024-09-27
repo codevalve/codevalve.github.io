@@ -7,7 +7,7 @@ categories: linux, cyber-security, open-source
 tags: linux, cybersecurity, threats, vulnerability, open-source
 image: 
     path: https://codevalve.com/wp-content/uploads/2024/09/codevalve_Northern_Rock_Hopper_Penguin_as_a_medieval_knight_h_08529ed3-63ac-49d1-b5e6-619b79be969f_1.png
-    alt: A Northern Rockhopper penguin dressed as a medieval knight. The penguin wears a suit of armor, complete with a helmet featuring a plume resembling the penguin's natural feathered crest. The image is a playful mix of wildlife and medieval elements.
+    alt: A penguin standing heroically on a rock, dressed as a medieval knight. The penguin wears a red cape, a golden medallion, and holds a gleaming sword in its flipper. The background is soft and blurred, giving an impression of an outdoor setting, highlighting the penguin's proud and determined expression.
 exp: intermediate
 mermaid: true
 ---
