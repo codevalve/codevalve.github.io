@@ -18,6 +18,10 @@ Today, lacrosse is played by hundreds of thousands of people globally, from chil
 
 In this book, we’ll explore lacrosse’s humble beginnings in Native American society, its cultural and spiritual significance, and how it transformed into the modern sport we know today. By doing so, we hope to not only educate readers about lacrosse's rich history but also celebrate the heritage of the Native American communities who still hold this game close to their hearts.
 
+### Podcast
+
+<audio ref='podcast' src="https://codevalve.com/wp-content/uploads/2024/09/Codevalve-Podcast-The-History-of-Lacrosse.mp3" controls></audio>
+
 # Chapter 1: Origins of Lacrosse in Native American Culture
 Lacrosse is a game that has been played for centuries, long before European settlers arrived in North America. Among the Native American tribes of the Northeastern United States and parts of Canada, lacrosse was known by different names: the Iroquois called it _dehuntshigwa’es_ or "men hit a rounded object," while the Algonquins referred to it as _baaga’adowe_ or “little brother of war.” These names reflect lacrosse's multifaceted role in Native American life, both as a physical contest and a game with deep spiritual meaning.
 
