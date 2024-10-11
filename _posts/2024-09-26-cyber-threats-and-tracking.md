@@ -28,6 +28,8 @@ Linux-based systems face a range of cyber threats, including:
 - **Exploits and Vulnerabilities:** Bugs and misconfigurations in software can be exploited to gain unauthorized access or escalate privileges.
 - **Insider Threats:** Malicious actions by individuals within the organization can lead to significant damage, especially if they have administrative access.
 
+{% include embed/video.html src='https://codevalve.com/wp-content/uploads/2024/10/301208174999408648.mp4' %}
+
 ### Tracking Cyber Threats
 
 The tracking of cyber threats involves multiple layers of monitoring, reporting, and collaborative efforts. Here are some key components:
