@@ -5,6 +5,9 @@ author: codevalve
 date: 2023-10-07 12:30:00 -0400
 categories: development, documentation, programming
 tags: mermaid markdown
+image:
+    path: /assets/img/codevalve-mermaid-felt.png
+    alt: Mermaid character in felt medium
 mermaid: true
 ---
 
