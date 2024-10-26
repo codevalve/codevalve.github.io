@@ -24,6 +24,8 @@ Using Python, OpenCV, and scikit-learn, we processed images of the Rongorongo ta
 - **Feature Extraction**: Resizing and flattening each detected symbol into a vector for clustering.
 - **Clustering Analysis**: Using the DBSCAN algorithm, we identified 13 unique symbols in the text, visualizing their relationships through t-SNE (t-Distributed Stochastic Neighbor Embedding).
 
+[GitHub Repo: rapidnui](https://github.com/codevalve/rapidnui)
+
 ## Results
 The analysis revealed several key insights:
 - **13 Unique Symbols Detected**: Despite the complex appearance of the text, our analysis identified a core set of 13 unique symbols. This suggests that Rongorongo may use a limited set of repeating glyphs, potentially as a proto-writing system or mnemonic aid.
