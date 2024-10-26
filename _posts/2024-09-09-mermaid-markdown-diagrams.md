@@ -5,6 +5,9 @@ author: codevalve
 date: 2023-10-07 12:30:00 -0400
 categories: development, documentation, programming
 tags: mermaid markdown
+image:
+    path: /assets/img/codevalve-mermaid-felt.png
+    alt: Mermaid character in felt medium
 mermaid: true
 ---
 
@@ -124,6 +127,51 @@ stateDiagram
     [*] --> State1
     State1 --> State2
     State2 --> [*]
+```
+## Gant Charts
+
+```
+gantt
+    title 90-Day Strategy Plan
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section "Establish (Days 1-30)"
+    "Meet Key Stakeholders"        : active, task1, 2025-01-01, 30d
+    "Review Documentation"         : crit, task2, 2025-01-05, 30d
+    "Communication & Visibility"   : active, task3, 2025-01-10, 30d
+
+    section "Plan (Days 31-60)"
+    "Update Strategic Plans"       : milestone, task4, 2025-01-26, 28d
+    "Develop Architect Frameworks" : task5, 2025-02-01, 28d
+    "Policy & Governance"          : task6, 2025-02-10, 28d
+
+    section "Engage (Days 61-90)"
+    "Facilitate Workshops"         : milestone, task7, 2025-02-23, 30d
+    "Develop Comm Channels"        :task8, 2025-03-01, 30d
+    "Promote Collaborative Culture":task9, 2025-03-10, 30d
+```
+
+```mermaid
+gantt
+    title 90-Day Strategy Plan
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section "Establish (Days 1-30)"
+    "Meet Key Stakeholders"        : active, task1, 2025-01-01, 30d
+    "Review Documentation"         : crit, task2, 2025-01-05, 30d
+    "Communication & Visibility"   : active, task3, 2025-01-10, 30d
+
+    section "Plan (Days 31-60)"
+    "Update Strategic Plans"       : milestone, task4, 2025-01-26, 28d
+    "Develop Architect Frameworks" : task5, 2025-02-01, 28d
+    "Policy & Governance"          : task6, 2025-02-10, 28d
+
+    section "Engage (Days 61-90)"
+    "Facilitate Workshops"         : milestone, task7, 2025-02-23, 30d
+    "Develop Comm Channels"        :task8, 2025-03-01, 30d
+    "Promote Collaborative Culture":task9, 2025-03-10, 30d
 ```
 
 ## Embedding Mermaid in Markdown
