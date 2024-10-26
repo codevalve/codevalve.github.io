@@ -14,6 +14,10 @@ image:
 ## Introduction
 The *Rongorongo* script, found on Easter Island, has puzzled researchers for decades. With its intricate glyphs and undeciphered nature, it has been compared to other ancient writing systems like the Indus Valley Script, Egyptian hieroglyphs, and the Andean quipu. In our research, we applied modern image processing and clustering techniques to analyze a tablet containing Rongorongo symbols, aiming to identify patterns and relationships among the glyphs.
 
+### Podcast
+
+<audio ref='podcast' src="https://codevalve.com/wp-content/uploads/2024/10/Codevalve-Podcast-RongoRongo.mp3" controls></audio>
+
 ## Methods
 Using Python, OpenCV, and scikit-learn, we processed images of the Rongorongo tablet to identify unique symbols and analyze their distribution. The process included:
 - **Image Preprocessing**: Conversion of the tablet image to grayscale, thresholding, and contour detection to isolate each symbol.
