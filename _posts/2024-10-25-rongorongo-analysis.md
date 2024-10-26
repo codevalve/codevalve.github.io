@@ -6,8 +6,8 @@ date: 2024-10-25 08:00:00 -0500
 categories: article
 tags: rongorongo rapanui easter-island script
 image:
-  path: 
-  alt: 
+  path: /assets/img/easter-island-moi.png
+  alt: Easter Island Mo'I facing the sea
 ---
 # 
 
@@ -27,11 +27,11 @@ The analysis revealed several key insights:
 - **Outliers and Variability**: Symbols classified as noise or outliers might represent rare symbols or variations in the text, adding depth to our understanding of how the script might encode unique or context-specific information.
 
 ### Figure 1: t-SNE Visualization of Detected Symbols
-![t-SNE Visualization of Detected Symbols](t-SNE-Detected-Symbols.png)
+![t-SNE Visualization of Detected Symbols](/assets/img/t-SNE-Detected-Symbols.png)
 
 ### Figure 2: Detected Symbols on the Tablet
 The following image shows the detected symbols outlined on the original Rongorongo tablet. This visualization highlights the contours identified during the preprocessing stage.
-![Detected Symbols on Tablet](detected-symbols.png)
+![Detected Symbols on Tablet](/assets/img/detected-symbols.png)
 
 ## Hypotheses and Conjectures
 From the results of our analysis, we propose several hypotheses regarding the nature of the Rongorongo script:
