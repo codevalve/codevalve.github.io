@@ -5,10 +5,10 @@ author: codevalve
 date: 2024-11-01 06:00:00 -0500
 categories: development, open-source
 tags: sqlite
-image: 
-    path: 
-    alt:
 exp: intermediate
+image:
+  path: /assets/img/SQLite370.svg
+  alt: SQLite logo
 mermaid: true
 ---
 # Using SQLite for Your Web App: A Lightweight, Flexible Database Solution
