@@ -5,7 +5,7 @@ categories: AI, Open Source, Development
 tags: Windsurf Cascade, AI, FBIMS, Open Source, Food Bank
 layout: post
 image:
-    path: "https://github.com/codevalve/fbims-docs/blob/main/images/FoodBank%20-%20Hero%20Image%20-%20App%20-%20Small%20-%20Transparent.png"
+    path: "/assets/img/foodbank-hero-image.png"
     alt: "Illustration of a food bank volunteer managing inventory on a computer, with shelves of food items, including canned goods, fruits, and vegetables, visible in the background. The screen displays an inventory management system with product images, quantities, and a clean, user-friendly interface."
 author: codevalve
 ---
