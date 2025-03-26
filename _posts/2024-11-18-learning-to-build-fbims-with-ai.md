@@ -1,6 +1,6 @@
 ---
 title: "Learning to Build an Open Source Food Bank Inventory Management System with AI Assistance"
-date: 2024-11-18 07:00:00 -0500
+date: 2036-11-18 07:00:00 -0500
 categories: AI, Open Source, Development
 tags: Windsurf Cascade, AI, FBIMS, Open Source, Food Bank
 layout: post
@@ -16,11 +16,11 @@ Building a robust application as a solo developer is a challenging endeavor, esp
 
 ## The Vision Behind FBIMS
 
-The inspiration for FBIMS is deeply personal. The project’s developer, John, shared, 
+The inspiration for FBIMS is deeply personal. The project’s developer, John, shared,
 
 > “My father was very involved in his church’s Food Bank Ministry, and having an application like this for them to use would have been a tremendous blessing.”
 
-The goal of FBIMS is to create a free, open-source platform that food banks can use to streamline operations like inventory tracking, volunteer scheduling, and donation management. 
+The goal of FBIMS is to create a free, open-source platform that food banks can use to streamline operations like inventory tracking, volunteer scheduling, and donation management.
 
 This ambitious vision is also fueled by John’s lifelong passion for technology:
 
@@ -53,6 +53,7 @@ Although FBIMS is still in its infancy, the progress has been remarkable:
 John shared his reasons for pursuing this project:
 
 > “FBIMS began as three primary motivations:  
+>
 > 1. A challenge to explore whether AI could effectively develop a real-world, complex application.  
 > 2. An experiment in stepping back from direct coding to focus on design and guidance.  
 > 3. A deeply personal passion project inspired by my father’s ministry, one I thought I’d only have time to pursue after retirement.
@@ -74,4 +75,3 @@ While FBIMS is still in its early stages, it serves as an example of how AI can 
 ### Want to Learn More?
 
 Visit the [FBIMS Documentation](https://codevalve.github.io/fbims-docs/) to explore the project or learn more about how AI is transforming software development.
-
