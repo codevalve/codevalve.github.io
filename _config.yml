@@ -158,6 +158,9 @@ collection:
   authors:
     output: true
 
+plugins:
+  - jekyll-katex
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
