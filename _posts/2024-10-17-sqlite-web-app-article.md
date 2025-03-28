@@ -11,7 +11,6 @@ image:
   alt: SQLite logo
 mermaid: true
 ---
-# Using SQLite for Your Web App: A Lightweight, Flexible Database Solution
 
 When it comes to choosing a database for your web app, options like MySQL, PostgreSQL, and MongoDB often come to mind. But there's another, more lightweight option that deserves attention—SQLite. Whether you're building a simple URL-tracking app or a mobile-friendly solution, SQLite can be a perfect fit for projects where ease of setup, portability, and simplicity are paramount. This article will explore what makes SQLite unique, its use cases, and some best practices to get the most out of this versatile database.
 
@@ -40,7 +39,6 @@ For applications with relatively low write concurrency and modest data volumes, 
 ### 4. SQL Support
 
 Despite its simplicity, SQLite supports a significant subset of SQL standards. This means you can use familiar SQL syntax for data manipulation and querying, making it easy for developers with SQL experience to get up to speed quickly.
-
 
 ## When to Use SQLite—and When Not To
 
