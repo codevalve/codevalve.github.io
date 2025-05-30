@@ -1,0 +1,85 @@
+<h3>🎧 Listen to "Beginning to Forget"</h3>
+
+<style>
+  .playlist-container {
+    max-width: 700px;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 8px;
+    font-family: sans-serif;
+  }
+  .playlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+  .playlist-table th,
+  .playlist-table td {
+    text-align: left;
+    padding: 0.5em;
+    vertical-align: top;
+  }
+  .playlist-table tr:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  .playlist-table .active {
+    font-weight: bold;
+    background-color: #e0f7fa;
+  }
+</style>
+
+<div class="playlist-container">
+  <audio id="audioPlayer" controls controlsList="nodownload" style="width: 100%;">
+    <source id="audioSource" src="/assets/audio/im-beginning-to-forget-you.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <table class="playlist-table">
+    <thead>
+      <tr>
+        <th>AI Generated Track</th>
+        <th>Home Recording Location</th>
+      </tr>
+    </thead>
+    <tbody id="playlist">
+      <tr class="track active" data-src="/assets/audio/im-beginning-to-forget-you.mp3">
+        <td>I'm Beginning to Forget You<br><small><a href="https://open.spotify.com/track/3uXFj8U8yDqaurlJ3gCTlN" target="_blank">Listen to the home recording</a></small></td>
+        <td>Bad Nauheim, Germany – Nov 14, 1959</td>
+      </tr>
+      <tr class="track" data-src="/assets/audio/apron-strings-blue-hawaii.mp3">
+        <td>Apron Strings (Blue Hawaii)<br><small><a href="https://open.spotify.com/track/3mbYOs2p7dSyDTRNmfWMCW" target="_blank">Listen to the home recording</a></small></td>
+        <td>Bad Nauheim, Germany – Dec 1958</td>
+      </tr>
+      <tr class="track" data-src="/assets/audio/theres-no-tomorrow.mp3">
+        <td>There's No Tomorrow<br><small><a href="https://open.spotify.com/track/0pHEyMayPj33TXbx3BXxf7" target="_blank">Listen to the home recording</a></small></td>
+        <td>Bad Nauheim, Germany – Dec 1958</td>
+      </tr>
+      <tr class="track" data-src="/assets/audio/i-understand.mp3">
+        <td>I Understand...<br><small><a href="https://open.spotify.com/track/7hOuZtJ4GbrSE5FAB1zmr5" target="_blank">Listen to the home recording</a></small></td>
+        <td>Bad Nauheim, Germany – Dec 1958</td>
+      </tr>
+      <tr class="track" data-src="/assets/audio/the-titles-will-tell.mp3">
+        <td>The Titles Will Tell<br><small><a href="https://open.spotify.com/track/2LU7MtNCijTEAbBgg4AF8t" target="_blank">Listen to the home recording</a></small></td>
+        <td>Bad Nauheim, Germany – Dec 1958</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  const audioPlayer = document.getElementById("audioPlayer");
+  const audioSource = document.getElementById("audioSource");
+  const rows = document.querySelectorAll(".track");
+
+  rows.forEach(row => {
+    row.addEventListener("click", () => {
+      rows.forEach(r => r.classList.remove("active"));
+      row.classList.add("active");
+      const newSrc = row.getAttribute("data-src");
+      audioSource.src = newSrc;
+      audioPlayer.load();
+      audioPlayer.play();
+    });
+  });
+</script>

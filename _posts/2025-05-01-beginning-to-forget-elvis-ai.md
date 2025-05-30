@@ -63,6 +63,10 @@ This project is twofold in purpose:
     font-weight: bold;
     background-color: #e0f7fa;
   }
+
+  .icon.idle { color: #ccc; }
+  .icon.paused { color: #FF5E49; }
+  .icon.playing { color: #FF5E49; }
 </style>
 
 <div class="playlist-container">
@@ -111,23 +115,6 @@ This project is twofold in purpose:
   </table>
 </div>
 
-<script>
-  const audioPlayer = document.getElementById("audioPlayer");
-  const audioSource = document.getElementById("audioSource");
-  const rows = document.querySelectorAll(".track");
-
-  rows.forEach(row => {
-    row.addEventListener("click", () => {
-      rows.forEach(r => r.classList.remove("active"));
-      row.classList.add("active");
-      const newSrc = row.getAttribute("data-src");
-      audioSource.src = newSrc;
-      audioPlayer.load();
-      audioPlayer.play();
-    });
-  });
-</script>
-
 ## Looking Ahead
 
 AI-generated music is still in its infancy, but it’s evolving fast. *Beginning to Forget* shows that — with the right direction — AI can serve as a time machine, not just a novelty. It can resurrect lost possibilities and help us appreciate the past with new ears.
@@ -135,3 +122,5 @@ AI-generated music is still in its infancy, but it’s evolving fast. *Beginning
 We’re not claiming to recreate Elvis. But we are inviting listeners to dream, to imagine, and to listen closely to the songs that history almost forgot.
 
 Next up, we’re working on a companion project: **Memories of Grace**, a set of gospel-inspired tracks crafted in the same spirit. These are songs we hope the King would smile to hear — a heartfelt tribute to the side of Elvis that found solace, strength, and joy in gospel music.
+
+<script src="/assets/js/audio-player.js"></script>
