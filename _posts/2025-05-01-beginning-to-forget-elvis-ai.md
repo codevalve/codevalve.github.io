@@ -87,7 +87,7 @@ This project is twofold in purpose:
         <td>Apron Strings (Blue Hawaii)</td>
         <td>Informal Rehearsal (1960)</td>
       </tr>
-      <tr class="track" data-src="/assets/audio/theres-no-tomorrow-fun-in-acapulco.mp3">
+      <tr class="track" data-src="/assets/audio/theres-no-tomorrow.mp3">
         <td>There's No Tomorrow</td>
         <td>Radio Performance Rehearsal</td>
       </tr>
