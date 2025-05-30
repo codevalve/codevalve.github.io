@@ -70,7 +70,7 @@ This project is twofold in purpose:
 </style>
 
 <div class="playlist-container">
-  <audio id="audioPlayer" controls style="width: 100%;">
+  <audio id="audioPlayer" controls controlsList="nodownload" style="width: 100%;">
     <source id="audioSource" src="/assets/audio/im-beginning-to-forget-you.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
