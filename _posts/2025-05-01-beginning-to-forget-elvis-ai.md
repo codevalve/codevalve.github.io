@@ -79,37 +79,37 @@ This project is twofold in purpose:
     <thead>
       <tr>
         <th>AI Version</th>
-        <th>Based on Home Recording Source</th>
+        <th>Recording Location & Date</th>
       </tr>
     </thead>
     <tbody id="playlist">
       <tr class="track active" data-src="/assets/audio/im-beginning-to-forget-you.mp3">
         <td>I'm Beginning to Forget You</td>
-        <td>Graceland Reel-to-Reel Tape</td>
+        <td>Graceland, 1958 (Reel-to-Reel, see Spotify: <a href="https://open.spotify.com/track/3uXFj8U8yDqaurlJ3gCTlN?si=5f45105382e943b8" target="_blank" rel="noopener noreferrer">Listen</a>)</td>
       </tr>
       <tr class="track" data-src="/assets/audio/apron-strings-blue-hawaii.mp3">
         <td>Apron Strings (Blue Hawaii)</td>
-        <td>Informal Rehearsal (1960)</td>
+        <td>Beverly Hills, CA, 1960 (Informal Rehearsal)</td>
       </tr>
       <tr class="track" data-src="/assets/audio/theres-no-tomorrow.mp3">
         <td>There's No Tomorrow</td>
-        <td>Radio Performance Rehearsal</td>
+        <td>Hollywood, 1959 (Radio Rehearsal)</td>
       </tr>
       <tr class="track" data-src="/assets/audio/i-understand.mp3">
         <td>I Understand...</td>
-        <td>Graceland Piano Demo</td>
+        <td>Graceland Piano Room, Early 60s (see Spotify: <a href="https://open.spotify.com/track/7hOuZtJ4GbrSE5FAB1zmr5?si=9f3997acd1e54893" target="_blank" rel="noopener noreferrer">Listen</a>)</td>
       </tr>
       <tr class="track" data-src="/assets/audio/the-titles-will-tell.mp3">
         <td>The Titles Will Tell</td>
-        <td>Private Home Tape</td>
+        <td>Private Tape, Unknown Location</td>
       </tr>
       <tr class="track" data-src="/assets/audio/apron-strings-vegas-review.mp3">
         <td>Apron Strings (Vegas Review)</td>
-        <td>Dressing Room Cassette</td>
+        <td>(Bonus AI track)</td>
       </tr>
       <tr class="track" data-src="/assets/audio/apron-strings-fun-in-acapulco.mp3">
         <td>Apron Strings (Fun in Acapulco)</td>
-        <td>Movie Set Rehearsal (1962)</td>
+        <td>(Bonus AI track)</td>
       </tr>
     </tbody>
   </table>

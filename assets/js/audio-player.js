@@ -7,22 +7,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
   let currentTrack = null;
 
-  // Inject data-title into track cells
+  // Inject data-title and idle icon into track cells
   document
     .querySelectorAll('.playlist-table td:first-child')
     .forEach((cell) => {
-      if (!cell.getAttribute('data-title')) {
-        cell.setAttribute('data-title', cell.textContent.trim());
-      }
+      const text = cell.textContent.trim();
+      cell.setAttribute('data-title', text);
+      cell.innerHTML = `<span class="icon idle">▶</span> ${text}`;
     });
 
   function resetAllIcons() {
-    document.querySelectorAll('.track td:first-child').forEach((cell) => {
-      const title = cell.getAttribute('data-title');
-      if (title) {
-        cell.innerHTML = `<span class="icon idle">▶</span> ${title}`;
-      }
-    });
+    document
+      .querySelectorAll('.playlist-table td:first-child')
+      .forEach((cell) => {
+        const title = cell.getAttribute('data-title');
+        if (title) {
+          cell.innerHTML = `<span class="icon idle">▶</span> ${title}`;
+        }
+      });
   }
 
   function updateIcon(row, symbol, statusClass) {
@@ -35,7 +37,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   rows.forEach((row) => {
-    row.addEventListener('click', () => {
+    row.addEventListener('click', (event) => {
+      // Prevent affecting player when clicking home recording link
+      if (event.target.tagName === 'A') return;
+
       const newSrc = row.getAttribute('data-src');
 
       if (currentTrack === row && !audioPlayer.paused) {
@@ -62,8 +67,3 @@ document.addEventListener('DOMContentLoaded', function () {
     if (currentTrack) updateIcon(currentTrack, '▶', 'paused');
   });
 });
-
-// CSS suggestion for icon coloring:
-// .icon.idle { color: #ccc; }
-// .icon.paused { color: #FF5E49; }
-// .icon.playing { color: #FF5E49; }
